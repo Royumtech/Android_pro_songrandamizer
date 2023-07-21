@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choice2_bg"
+    tools:context=".Choice2">
+
+
+
+
+    <Button
+        android:id="@+id/mood"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/custom_button2"
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:text="Mood Boosters" />
+
+    <Button
+        android:id="@+id/workout"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:text="Workout Songs"
+        android:background="@drawable/custom_button2"
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="45dp"/>
+    <Button
+        android:id="@+id/Study"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:background="@drawable/custom_button2"
+        android:typeface="sans"
+        android:text="Study Music"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="45dp"/>
+
+    <Button
+        android:id="@+id/Indian"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:text="Indian songs"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button2"
+        android:typeface="sans"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="45dp"/>
+    <Button
+        android:id="@+id/western"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_button2"
+        android:typeface="sans"
+        android:textSize="20dp"
+        android:text="Western Music"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="45dp"/>
+
+
+
+
+
+</RelativeLayout>
